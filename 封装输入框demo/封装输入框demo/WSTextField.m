@@ -13,8 +13,7 @@
 
 @interface WSTextField()<UITextFieldDelegate>
 
-//文本框
-@property (nonatomic,strong) UITextField *textField;
+
 
 //注释
 @property (nonatomic,strong) UILabel *placeholderLabel;

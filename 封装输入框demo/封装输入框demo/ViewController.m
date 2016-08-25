@@ -56,6 +56,7 @@
     [self.view addSubview:username];
     
     WSTextField *password = [[WSTextField alloc]initWithFrame:CGRectMake(30, CGRectGetMaxY(username.frame)+30, kScreenWidth-60, 30)];
+    password.textField.secureTextEntry = YES;
     password.ly_placeholder = @"Password";
     [self.view addSubview:password];
  

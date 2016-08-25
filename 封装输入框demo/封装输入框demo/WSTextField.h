@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 
 @interface WSTextField : UIView
+//文本框
+@property (nonatomic,strong) UITextField *textField;
 
 //注释信息
 @property (nonatomic,copy) NSString *ly_placeholder;
