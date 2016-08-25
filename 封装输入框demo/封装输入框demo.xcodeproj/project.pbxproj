@@ -15,6 +15,7 @@
 		8808F36F1D6E860700377C30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8808F36D1D6E860700377C30 /* LaunchScreen.storyboard */; };
 		8808F37A1D6E860700377C30 /* _____demoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8808F3791D6E860700377C30 /* _____demoTests.m */; };
 		8808F3851D6E860700377C30 /* _____demoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8808F3841D6E860700377C30 /* _____demoUITests.m */; };
+		8808F3941D6E86B100377C30 /* WSTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 8808F3931D6E86B100377C30 /* WSTextField.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		8808F3801D6E860700377C30 /* 封装输入框demoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "封装输入框demoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8808F3841D6E860700377C30 /* _____demoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_____demoUITests.m"; sourceTree = "<group>"; };
 		8808F3861D6E860700377C30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8808F3921D6E86B100377C30 /* WSTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WSTextField.h; sourceTree = "<group>"; };
+		8808F3931D6E86B100377C30 /* WSTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WSTextField.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				8808F3631D6E860700377C30 /* AppDelegate.m */,
 				8808F3651D6E860700377C30 /* ViewController.h */,
 				8808F3661D6E860700377C30 /* ViewController.m */,
+				8808F3921D6E86B100377C30 /* WSTextField.h */,
+				8808F3931D6E86B100377C30 /* WSTextField.m */,
 				8808F3681D6E860700377C30 /* Main.storyboard */,
 				8808F36B1D6E860700377C30 /* Assets.xcassets */,
 				8808F36D1D6E860700377C30 /* LaunchScreen.storyboard */,
@@ -273,6 +278,7 @@
 				8808F3671D6E860700377C30 /* ViewController.m in Sources */,
 				8808F3641D6E860700377C30 /* AppDelegate.m in Sources */,
 				8808F3611D6E860700377C30 /* main.m in Sources */,
+				8808F3941D6E86B100377C30 /* WSTextField.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
